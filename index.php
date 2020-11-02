@@ -1,6 +1,6 @@
 <?php
-require_once 'model.php';
-require_once 'controller.php';
+
+require_once 'vendor/autoload.php';
 
 $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 if ('/index.php' === $uri || '/' === $uri) {
