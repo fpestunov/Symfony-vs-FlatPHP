@@ -24,3 +24,7 @@ https://symfony.com/doc/current/introduction/from_flat_php_to_symfony.html
 Шаг 5. Composer & Symfony
 - добавляем [composer.json](composer.json)
 - обновляем зависимости `composer install`
+- Request и Response из Symfony\HttpFoundation
+
+Заключение
+- Теперь необходим routing, Twig и другие компоненты для полноценного фреймворка.
