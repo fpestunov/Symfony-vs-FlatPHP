@@ -20,3 +20,7 @@ https://symfony.com/doc/current/introduction/from_flat_php_to_symfony.html
 Шаг 4. Front Controller
 - в индексном файле будет фронт-контроллер
 - а сам контроллер перемешаем в [controller.php](controller.php)
+
+Шаг 5. Composer & Symfony
+- добавляем [composer.json](composer.json)
+- обновляем зависимости `composer install`
