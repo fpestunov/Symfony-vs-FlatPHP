@@ -7,3 +7,6 @@ https://symfony.com/doc/current/introduction/from_flat_php_to_symfony.html
 - добавление данных [queries.sql](queries.sql)
 - создание стартового скрипта [index.php](index.php)
 - запуск `php -S localhost:8080`
+
+Шаг 2. Развитие проекта
+- изолируем логику приложения от отображения
