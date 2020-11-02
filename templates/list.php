@@ -8,13 +8,13 @@
 <body>
   <h1>List of Posts</h1>
   <ul>
-    <?php while ($row = $result->fetch(PDO::FETCH_ASSOC)) : ?>
+    <?php foreach ($posts as $post) : ?>
       <li>
-        <a href="/show.php?id=<?= $row['id'] ?>">
-          <?= $row['title'] ?>
+        <a href="/show.php?id=<?= $post['id'] ?>">
+          <?= $post['title'] ?>
         </a>
       </li>
-    <?php endwhile ?>
+    <?php endforeach ?>
   </ul>
 </body>
 

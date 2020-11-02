@@ -10,3 +10,4 @@ https://symfony.com/doc/current/introduction/from_flat_php_to_symfony.html
 
 Шаг 2. Развитие проекта
 - изолируем логику приложения от отображения
+- добавляем модель
