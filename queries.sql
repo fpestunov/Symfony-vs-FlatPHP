@@ -1,4 +1,4 @@
 /* Добавляем посты блога */
-INSERT INTO `blog_db`.`post` (`title`) VALUES ('As the Virus Rages, Some Are Convinced It’s Too Late to Stop It');
-INSERT INTO `blog_db`.`post` (`title`) VALUES ('7 Things to Do This Weekend');
-INSERT INTO `blog_db`.`post` (`title`) VALUES ('Should you travelflydrive this year?');
+INSERT INTO `blog_db`.`post` (`title`, `body`) VALUES ('As the Virus Rages, Some Are Convinced It’s Too Late to Stop It', 'Concerns have arisen that communities may be manipulating coronavirus positivity rates by discouraging sick people from being tested.');
+INSERT INTO `blog_db`.`post` (`title`, `body`) VALUES ('7 Things to Do This Weekend', 'No matter who wins, Democrats will be split between younger progressives and a moderate old guard. And a Republican Party redefined in President Trump’s image will start weighing where it goes next.');
+INSERT INTO `blog_db`.`post` (`title`, `body`) VALUES ('Should you travelflydrive this year?', 'From gerrymandering to voter roll purges, we showed people around the world how the American system works. It didn’t go well.');

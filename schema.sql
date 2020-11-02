@@ -8,6 +8,8 @@ USE `blog_db`;
 
 CREATE TABLE `post` (
     `id` INT(11) NOT NULL AUTO_INCREMENT,
+    `created_at` TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
     `title` VARCHAR(100) NOT NULL,
+    `body` TEXT NOT NULL,
     PRIMARY KEY (`id`)
 );
